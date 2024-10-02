@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./Style.css" rel="stylesheet" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div>
+      <div class="navbar">
+        <a href="./Home.html">
+          <h1 class="kode-mono-font logo">
+            Swastik<span id="span">.</span>
+          </h1></a>
+        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+        <div class="side-nav" id="nav-links">
+          <a id="active">Home</a> <a>Services</a> <a>Resume</a> <a>Contact</a>
+          <button id="hire-me" class="poppins-semibold">Hire Me</button>
+        </div>
+      </div>
+     
+      <div class="hero-end">
+      <div class="Hero">
+        <div class="right-hero" id="right-hero-600">
+          <img class="img-hero" src="./Assets/Images/Shiroko.jpg"/>
+        </div>
+      <div class="left">
+        <p class="heading kode-mono-font">
+          Hello I'm<br/><span id="name" class="poppins-bold">Swastik Gupta</span>
+        </p>
+        <hr class="line" />
+        <p class="kode-mono-font hero-class">
+          Web Developer | Video Editor | Graphic Designer
+        </p>
+        <div class="left-part">
+          <p class="kode-mono-font">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </p>
+          <div class="hero-icon">
+            <button class="CV">Resume</button>
+            <button class="icon"></button>
+            <button class="icon"></button>
+            <button class="icon"></button>
+          </div>
+      </div>
+  
+      </div>
+     
+      </div>
+         <div class="overview kode-mono-font">                     
+           <div class="Prop"> 
+           <p class="Value">21</p>     
+           <p class="Description"> Projects<br/>Completed</p>
+           </div> 
+           <div class="Prop"> 
+            <p class="Value">21</p>     
+            <p class="Description"> Projects<br/>Completed</p>
+            </div> 
+            <div class="Prop"> 
+              <p class="Value">21</p>     
+              <p class="Description"> Projects<br/>Completed</p>
+              </div> 
+              <div class="Prop"> 
+                <p class="Value">21</p>     
+                <p class="Description"> Projects<br/>Completed</p>
+              </div> 
+            </div>
+            <div class="footer">
+            <footer class="kode-mono-font footer">
+              <p>Project RealSage</p>
+              <p>Copyright:Shiroko</p>
+              <p>Create.Develop.Design</p>
+            </footer>
+          </div>
+    </div>
+  </div>
+    <script>
+      function toggleMenu() {
+        const navLinks = document.getElementById("nav-links");
+        navLinks.classList.toggle("show");
+      }
+    </script>
+  </body>
+</html>
