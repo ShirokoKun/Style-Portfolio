@@ -1,2 +1,0 @@
-# Style-Portfolio
-Portfolio Webpage
